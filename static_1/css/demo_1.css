@@ -1,0 +1,233 @@
+/*公共样式 start*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1350px;
+    background-color:azure;
+}
+li{
+    list-style: none;
+}
+/*公共样式 end*/
+
+#category-title{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1188px;
+    height: 580px;
+    margin: 10px auto;
+}
+
+#category-title .cate-left{
+    position: absolute;
+    width: 800px;
+    height: 580px;
+}
+
+#category-title .cate-left ul li{
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 170px;
+    margin: 0px 10px 10px 0px;
+}
+
+#category-title .cate-left ul li p{
+    color: #ffffff;
+}
+
+#category-title .cate-left ul li span{
+    background: -webkit-linear-gradient(left,#ffffff,rgba(255,0,0,0));
+    background: -moz-linear-gradient(left,#ffffff,rgba(255,0,0,0));
+    background: -ms-linear-gradient(left,#ffffff,rgba(255,0,0,0));
+    background: -o-linear-gradient(left,#ffffff,rgba(255,0,0,0));
+    background: linear-gradient(left,#ffffff,rgba(255,0,0,0));
+}
+
+#category-title .cate-left ul li .item-line-1{
+    position: absolute;
+    top: 44px;
+    left: 35px;
+    height: 2px;
+    width: 75px;
+}
+
+#category-title .cate-left ul li .item-line-2{
+    position: absolute;
+    top: 82px;
+    left: 35px;
+    height: 2px;
+    width: 135px;
+}
+
+#category-title .cate-left ul li .item-title{
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#category-title .cate-left ul li .item-price{
+    position: absolute;
+    left: 35px;
+    top: 90px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#category-title .cate-left ul li img{
+    position: absolute;
+    top: 5px;
+    left: 210px;
+}
+
+#category-title .cate-left ul .item-1{
+    background:-webkit-linear-gradient(top,#e89723,#f5c467);
+    background:-moz-linear-gradient(top,#e89723,#f5c467) ;
+    background:-ms-linear-gradient(top,#e89723,#f5c467) ;
+    background:-o-linear-gradient(top,#e89723,#f5c467) ;
+    background:linear-gradient(top,#e89723,#f5c467);
+}
+
+#category-title .cate-left ul .item-2{
+    background:-webkit-linear-gradient(top,#335db6 ,#4c99fd);
+    background:-moz-linear-gradient(top,#335db6,#4c99fd) ;
+    background:-ms-linear-gradient(top,#335db6,#4c99fd) ;
+    background:-o-linear-gradient(top,#335db6,#4c99fd) ;
+    background:linear-gradient(top,#335db6,#4c99fd);
+}
+
+#category-title .cate-left ul .item-3{
+    background:-webkit-linear-gradient(top,#1d9faf,#3fcba7);
+    background:-moz-linear-gradient(top,#1d9faf,#3fcba7) ;
+    background:-ms-linear-gradient(top,#1d9faf,#3fcba7) ;
+    background:-o-linear-gradient(top,#1d9faf,#3fcba7) ;
+    background:linear-gradient(top,#1d9faf,#3fcba7);
+}
+
+#category-title .cate-left ul .item-4{
+    background:-webkit-linear-gradient(top,#d23a38,#df6c4f);
+    background:-moz-linear-gradient(top,#d23a38,#df6c4f) ;
+    background:-ms-linear-gradient(top,#d23a38,#df6c4f) ;
+    background:-o-linear-gradient(top,#d23a38,#df6c4f) ;
+    background:linear-gradient(top,#d23a38,#df6c4f);
+}
+
+#category-title .cate-left ul .item-5{
+    background:-webkit-linear-gradient(top,#cb4385,#eb75cf);
+    background:-moz-linear-gradient(top,#cb4385,#eb75cf) ;
+    background:-ms-linear-gradient(top,#cb4385,#eb75cf) ;
+    background:-o-linear-gradient(top,#cb4385,#eb75cf) ;
+    background:linear-gradient(top,#cb4385,#eb75cf);
+}
+
+#category-title .cate-left ul .item-6{
+    background:-webkit-linear-gradient(top,#5d40c1,#8c5fdb);
+    background:-moz-linear-gradient(top,#5d40c1,#8c5fdb) ;
+    background:-ms-linear-gradient(top,#5d40c1,#8c5fdb) ;
+    background:-o-linear-gradient(top,#5d40c1,#8c5fdb) ;
+    background:linear-gradient(top,#5d40c1,#8c5fdb);
+}
+
+
+
+#category-title .cate-right-top{
+    position: absolute;
+    left: 800px;
+    top:0px;
+    width: 390px;
+    height: 350px;
+}
+#category-title .cate-right-top .right-top-big{
+    position: relative;
+    height: 268px;
+    width: 390px;
+    background-color: blue;
+}
+#category-title .cate-right-top .right-top-small{
+    position: relative;
+    height: 72px;
+    width: 390px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#category-title .cate-right-top .right-top-small ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10000px;
+    height: 72px;
+}
+#category-title .cate-right-top .right-top-small ul li{
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 128px;
+    margin-right: 3px;
+    background-color: blue;
+}
+#category-title .cate-right-bottom{
+    position: absolute;
+    top: 360px;
+    left: 800px;
+    width: 390px;
+    height: 170px;
+    overflow: hidden;
+}
+#category-title .cate-right-bottom ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 170px;
+}
+#category-title .cate-right-bottom ul li{
+    position: relative;
+    float: left;
+    height: 170px;
+    width: 190px;
+    margin-right: 10px;
+    background-color: blue;
+}
+
+#category-title .cate-right-bottom ul li p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    top: 22px;
+    left: 35px;
+}
+
+#category-title .cate-right-bottom ul li span{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    top: 52px;
+    left: 35px;
+}
+
+#category-title .cate-right-bottom ul li img{
+    position: absolute;
+    bottom: 0px;
+}
+
+#category-title .cate-right-bottom ul .r-bottom-1{
+    background: -webkit-linear-gradient(top,#6fa266,#9ec666);
+    background: -moz-linear-gradient(top,#6fa266,#9ec666);
+    background: -ms-linear-gradient(top,#6fa266,#9ec666);
+    background: -o-linear-gradient(top,#6fa266,#9ec666);
+    background: linear-gradient(top,#6fa266,#9ec666);
+}
+#category-title .cate-right-bottom ul .r-bottom-2{
+    background: -webkit-linear-gradient(top,#4125bc,#5870e8);
+    background: -moz-linear-gradient(top,#4125bc,#5870e8);
+    background: -ms-linear-gradient(top,#4125bc,#5870e8);
+    background: -o-linear-gradient(top,#4125bc,#5870e8);
+    background: linear-gradient(top,#4125bc,#5870e8);
+}
+
