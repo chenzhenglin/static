@@ -155,12 +155,27 @@ li{
     margin-top: 10px;
     overflow: hidden;
 }
+#category-title .cate-right-top .right-top-small span{
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 72px;
+    background-color: gray;
+    z-index: 99999;
+}
+#category-title .cate-right-top .right-top-small .r-bar-left{
+    left: 0px;
+}
+#category-title .cate-right-top .right-top-small .r-bar-right{
+    right: 0px;
+}
 #category-title .cate-right-top .right-top-small ul{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 10000px;
     height: 72px;
+    transition-duration: 1.5s;
 }
 #category-title .cate-right-top .right-top-small ul li{
     position: relative;
@@ -169,6 +184,7 @@ li{
     width: 128px;
     margin-right: 3px;
     background-color: blue;
+    color: white;
 }
 #category-title .cate-right-bottom{
     position: absolute;
@@ -231,3 +247,22 @@ li{
     background: linear-gradient(top,#4125bc,#5870e8);
 }
 
+/*animation动画 start*/
+@keyframes panToLeft {
+    from{left: 215px;}
+    to{left: 200px}
+}
+@keyframes panToRight {
+    from{left: 200px;}
+    to{left: 215px}
+}
+
+@keyframes rPanToLeft {
+    from{left: 0px;}
+    to{left: -10px}
+}
+@keyframes rPanToRight {
+    from{left: -10px;}
+    to{left: 0px}
+}
+/*animation动画 end*/
